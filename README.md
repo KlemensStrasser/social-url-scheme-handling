@@ -1,4 +1,4 @@
-# Social profile URL handling
+# Social Profile URL Handling
 
 A simple `URL` extension for opening Bluesky and Mastodon profiles in different client apps, like `Ivory`, `Radiant` or `Skeets`, depending on what the user has installed. If none is installed, this will open the profile in the browser.
 
@@ -11,13 +11,13 @@ A simple `URL` extension for opening Bluesky and Mastodon profiles in different 
 
 ### Bluesky
 
-Call: `URL.blueskyProfileURL(for: "PROFILENAME")`.
-Example: `URL.blueskyProfileURL(for: "strasser.bsky.social")`
+- Call: `URL.blueskyProfileURL(for: "PROFILENAME")`
+- Example: `URL.blueskyProfileURL(for: "strasser.bsky.social")`
 
 ### Mastodon
 
-Call: `URL.mastodonProfileURL(for: "PROFILENAME")`
-Example: `URL.mastodonProfileURL(for: "klemensstrasser@mastodon.social")`
+- Call: `URL.mastodonProfileURL(for: "PROFILENAME")`
+- Example: `URL.mastodonProfileURL(for: "klemensstrasser@mastodon.social")`
 
 ## Supported Apps
 
